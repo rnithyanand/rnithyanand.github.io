@@ -1,0 +1,20 @@
+
+<!-- _includes/course.html -->
+
+<div class="grid-sizer"></div>
+<div class="grid-item" style="width: 32%">
+    <a href="{{ course.url }}">
+        <div class="card hoverable">
+            {%- if course.img %}
+            <figure><picture>
+                <img src= "{{ course.img }}" width="240px" height="240px" style="object-fit: cover">
+            </picture></figure>
+            {%- endif %}
+            <div class="card-body">
+                <h2 class="card-title" style="color: #ffcd00; font-size: medium" >{{course.course}}</h2>
+                <p class="card-text"> {{ course.code }} </p>
+                <p class="card-text">{{ course.term }} {{course.year}}</p>
+            </div>
+        </div>
+    </a>
+</div>
