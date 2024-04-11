@@ -71,7 +71,7 @@ linkedin_username: rishabn # your LinkedIn user name
 orcid_id: 0000-0002-1280-1353 # your ORCID ID
 x_username: rishabn_# your X handle
 scholar_userid: iFjAUN8AAAAJ #your Google Scholar ID
-
+email: rishab-nithyanand@uiowa.edu
 contact_note: >
   Email is my preferred contact method.
 
@@ -158,7 +158,7 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
-#  - jekyll-email-protect
+  - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
