@@ -1,5 +1,5 @@
 {% if site.email %}
-  <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-regular fa-square-envelope" style = "color: #e32400;"></i></a>
+  <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-square-envelope" style = "color: #e32400;"></i></a>
 {% endif %}
 {% if site.telegram_username %}
   <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
@@ -41,7 +41,7 @@
   <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
 {% endif %}
 {% if site.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin" style="color: #0042aa;"></i></a>
+  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin" style="color: #0042aa;"></i></a>
 {% endif %}
 {% if site.x_username %}
   <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
@@ -80,7 +80,7 @@
   <a href="https://gitlab.com/{{ site.gitlab_username }}" title="GitLab"><i class="fa-brands fa-gitlab"></i></a>
 {% endif %}
 {% if site.dblp_url %}
-  <a href="{{ site.dblp_url }}" title="DBLP"><i class="ai ai-dblp"></i></a>
+  <a href="{{ site.dblp_url }}" title="DBLP"><i class="ai ai-dblp-square"></i></a>
 {% endif %}
 {% if site.stackoverflow_id %}
   <a href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}" title="Stackoverflow"><i class="fa-brands fa-stack-overflow"></i></a>
