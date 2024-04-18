@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 nav: true
 nav_order: 5
-years: [2023, 2022, 2021, 2020, 2019, 2018]
+years: [2024, 2023, 2022, 2021, 2020, 2019, 2018]
 ---
 <div class="projects">
     {%- for year in page.years %}
