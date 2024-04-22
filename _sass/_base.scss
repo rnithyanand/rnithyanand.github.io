@@ -297,13 +297,13 @@ blockquote {
 
     a {
       i::before {
-        color: var(--global-bg-color);
+        color: var(--gray);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
         i::before {
-          color: var(--global-text-color);
+          color: var(--global-bg-color);
         }
       }
     }
@@ -315,7 +315,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: var(--global-bg-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
