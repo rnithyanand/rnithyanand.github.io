@@ -6,6 +6,14 @@
   code: "CS3640"
   url: "https://sparta.cs.uiowa.edu/people/rishab/teaching"
 
+- id: "Fall2023"
+  course: "Computer Networks & Their Applications"
+  img: "../assets/img/midjourney/networks.png.jpg"
+  year: "2023"
+  term: "Fall"
+  code: "CS3640"
+  url: "https://sparta.cs.uiowa.edu/people/rishab/teaching"
+
 - id: "Fall2022"
   course: "Computer Networks & Their Applications"
   img: "../assets/img/midjourney/networks.png.jpg"
