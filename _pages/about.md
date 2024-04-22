@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 - Ring leader @ [SPARTA Lab](https://sparta.cs.uiowa.edu)
 - Assistant Professor @ [Department of Computer Science ](https://cs.uiowa.edu)
-- Co-Director @ [Algorithms and Culture Research Group](https://understanding.algorithms)
+- Co-Director @ [Center for Publics, Platforms, and Personalization (CP3)](https://cp3.center.uiowa.edu)
 - Member of Law Faculty (by Courtesy) @ [College of Law](https://law.uiowa.edu)
 
 ---
